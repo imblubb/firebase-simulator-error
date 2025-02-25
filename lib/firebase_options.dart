@@ -52,12 +52,13 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAnAm1rFSEslue-ldsWNQa3cPGPVfDAeRc',
-    appId: '1:693780686853:ios:c84113c1ea3f213eedd46c',  // Match stalert_app
-    messagingSenderId: '693780686853',
-    projectId: 'stalert-b6724',
-    storageBucket: 'stalert-b6724.firebasestorage.app',
-    iosBundleId: 'com.example.stalertApp',  // Match stalert_app
-  );
+static const FirebaseOptions ios = FirebaseOptions(
+  apiKey: 'AIzaSyDummyKeyForReproOnly',
+  appId: '1:123456789012:ios:abcdef1234567890',
+  messagingSenderId: '123456789012',
+  projectId: 'dummy-project-id',
+  storageBucket: 'dummy-project-id.appspot.com',
+  iosBundleId: 'com.example.stalertApp',
+);
+
 }
